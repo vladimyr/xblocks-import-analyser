@@ -7,8 +7,8 @@ $ ./analyse-imports <github-url>
 
 example urls to try with:
 
-* 3D Model Viewer XBlock: https://github.com/ExtensionEngine/xblock\_3d_viewer
-* Animation XBlock: https://github.com/pmitros/AnimationXBloc
+* 3D Model Viewer XBlock: https://github.com/ExtensionEngine/xblock_3d_viewer
+* Animation XBlock: https://github.com/pmitros/AnimationXBlock
 * Brightcove Video XBlock: https://github.com/edx-solutions/xblock-brightcove
 
 It will output list of imported modules for given XBlock github repo.
