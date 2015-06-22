@@ -14,7 +14,7 @@ es.readArray(xblocks)
     .pipe(es.map(function(xblock, callback){
         var url      = Url.parse(xblock.url),
             filename = Path.basename(url.pathname) + '.json',
-            path     = Path.join(__dirname, 'results', filename);
+            path     = Path.join(__dirname, '../results', filename);
 
         analyseImports(xblock.url, function complete(err, importsInfo){
             if (err) {
