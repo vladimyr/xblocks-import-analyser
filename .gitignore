@@ -1,0 +1,8 @@
+# webstorm dir
+.idea
+
+# node deps
+node_modules
+
+results/*
+!results/.gitkeep

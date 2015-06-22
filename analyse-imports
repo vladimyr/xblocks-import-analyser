@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var analyseImports = require('./util/analyse-imports-from-git.js');
+
+var argv = require('minimist')(process.argv.slice(2)),
+    url  = argv._[0];
+
+/**
+ * examples:
+ *
+ *  pygments           ==> 'https://github.com/nex3/pygments/'
+ *  xblock-poll        ==> 'https://github.com/mckinseyacademy/xblock-poll'
+ *  xblock-image-modal ==> 'https://github.com/Stanford-Online/xblock-image-modal'
+ */
+
+analyseImports(url, function(err, importsInfo){
+    if (err) {
+        console.error(err.message);
+        console.error(err.stack);
+        return;
+    }
+
+    console.log(JSON.stringify(importsInfo, null, 2));
+});

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "3D Model Viewer XBlock",
+    "url": "https://github.com/ExtensionEngine/xblock_3d_viewer",
+    "desc": "<p>to include and view 3D .obj models within an edX course</p>"
+  },
+  {
+    "name": "ACID Xblock",
+    "url": "https://github.com/edx/acid-block",
+    "desc": "<p>a block for testing the implementation of the XBlock runtime.</p>"
+  },
+  {
+    "name": "Adventure XBlock",
+    "url": "https://github.com/edx-solutions/xblock-adventure",
+    "desc": "<p>creating a simple &quot;<a href=\"https://github.com/edx-solutions/xblock-adventure\">Chose Your Own Adventure</a>&quot; style simulation.</p>"
+  },
+  {
+    "name": "Animation XBlock",
+    "url": "https://github.com/pmitros/AnimationXBlock",
+    "desc": "<p>shows students an animation they can go through. There is a set of images with corresponding text, and a slider for going through these images.</p>"
+  },
+  {
+    "name": "Brightcove Video XBlock",
+    "url": "https://github.com/edx-solutions/xblock-brightcove",
+    "desc": "<p>to include Brightcove videos within an edX course</p>"
+  },
+  {
+    "name": "Drag and Drop XBlock",
+    "url": "https://github.com/edx-solutions/xblock-drag-and-drop",
+    "desc": "<p>exercise which asks students to drag and drop text or image elements into different buckets according to their content</p>"
+  },
+  {
+    "name": "Drag and Drop XBlock v2",
+    "url": "https://github.com/edx-solutions/xblock-drag-and-drop-v2",
+    "desc": "<p>enhanced version of the Image Explorer XBlock. Due to incompatible data model with v1, the original XBlock still remains</p>"
+  },
+  {
+    "name": "Flash XBlock",
+    "url": "https://github.com/MarCnu/flashXBlock",
+    "desc": "<p>Embed Flash (.swf) files into your course.</p>"
+  },
+  {
+    "name": "Image Explorer XBlock",
+    "url": "https://github.com/edx-solutions/xblock-image-explorer",
+    "desc": "<p>to display tooltips on top of an image within the course content</p>"
+  },
+  {
+    "name": "LeaderBoard XBlock",
+    "url": "https://github.com/open-craft/xblock-leaderboard",
+    "desc": "<p>allows to display an arbitrary number of top scoring threads in an inline discussion, as well as top scores in a graded exercise.</p>"
+  },
+  {
+    "name": "Problem Builder XBlock",
+    "url": "https://github.com/open-craft/problem-builder",
+    "desc": "<p>Set of interactive exercises, and tools to automate the workflow of real-life mentoring within an edX course. It supports: free-form answers (textarea) which can be shared accross different XBlock instances (for example, to remind a student of an answer he gave before), MCQs (multiple choice questions), MRQs (multiple responses questions), rating scales, progression tracking (allowing to check that the student has completed the previous steps before allowing to complete a given XBlock instance).</p>"
+  },
+  {
+    "name": "Ooyala Video Player XBlock",
+    "url": "https://github.com/edx-solutions/xblock-ooyala",
+    "desc": "<p>to include Ooyala videos within an edX course. It supports transcripts, overlays (to place raw text or html content at a specific moment in your video) and player tokens (to secure your video content using a token with an expiration time)</p>"
+  },
+  {
+    "name": "ORA2",
+    "url": "https://github.com/edx/edx-ora2",
+    "desc": "<p>Version 2 of the Open Response Assessor Project. Provides functionality for peer assessment, self assessment, student training.</p>"
+  },
+  {
+    "name": "PDF XBlock (alternative)",
+    "url": "https://github.com/MarCnu/pdfXBlock",
+    "desc": "<p>Another XBlock to embed PDF, with XBlock title and download buttons.</p>"
+  },
+  {
+    "name": "Pie Chart XBlock",
+    "url": "https://github.com/ExtensionEngine/xblock_charting",
+    "desc": "<p>to include Pie chart within an edX course</p>"
+  },
+  {
+    "name": "Poll & Survey XBlock",
+    "url": "https://github.com/mckinseyacademy/xblock-poll",
+    "desc": "<p>enables a course author to create survey/poll elements to get feedback from students. Poll XBlocks have one question, and a series of answers. Survey XBlocks have several questions.</p>"
+  },
+  {
+    "name": "Rating XBlock",
+    "url": "https://github.com/UC3Mx/ratingXBlock",
+    "desc": "<p>Rating and comment the video unit.</p>"
+  },
+  {
+    "name": "School Yourself",
+    "url": "https://github.com/schoolyourself/schoolyourself-xblock",
+    "desc": "<p>This repository contains XBlocks for displaying School Yourself (SY) content on the edX platform. These will be used in the upcoming AlgebraX and GeometryX courses, developed for the High School Initiative.</p>"
+  },
+  {
+    "name": "Staff graded assignment",
+    "url": "https://github.com/mitodl/edx-sga",
+    "desc": "<p>Allows students to upload files to be graded by course staff.</p>"
+  },
+  {
+    "name": "Table XBlock",
+    "url": "https://github.com/adlnet/Table-XBlock",
+    "desc": "<p>Table XBlock is powerful tool used to create user-editable tables.</p>"
+  },
+  {
+    "name": "Video JS XBlock",
+    "url": "https://github.com/MarCnu/videojsXBlock",
+    "desc": "<p>Use Video.js HTML5 player (www.videojs.com) instead of the default one.</p>"
+  },
+  {
+    "name": "Discussion XBlock",
+    "url": "https://github.com/edx-solutions/xblock-discussion",
+    "desc": "<p>a prototype of the discussion XModule as a separate, pure XBlock. Functional, but requires patches to edx-platform at the moment.</p>"
+  },
+  {
+    "name": "Group Project XBlock",
+    "url": "https://github.com/edx-solutions/xblock-group-project",
+    "desc": "<p>to allow students to work as a group of 2-5 on a group project, with peer grading between projects and team members. Functional, but requires patches to edx-platform at the moment.</p>"
+  }
+]
